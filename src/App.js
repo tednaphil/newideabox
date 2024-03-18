@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Tayla's new <code>react.js</code> ideaBox App.
         </p>
         <a
           className="App-link"
