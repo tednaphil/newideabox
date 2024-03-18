@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.Cards {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+}
