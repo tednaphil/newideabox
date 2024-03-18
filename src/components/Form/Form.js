@@ -2,7 +2,7 @@ import './Form.css';
 
 function Form() {
 
-    return <h1>New Form Title</h1>
+    return <h2>New Form Title</h2>
 
 };
 

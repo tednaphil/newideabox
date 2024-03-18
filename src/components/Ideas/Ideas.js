@@ -1,7 +1,8 @@
 import './Ideas.css';
+import Card from '../Card/Card.test';
 
-function Idea(props) {
-    return <h2>Idea Card #{props.title}</h2>
+function Ideas() {
+    return <div className='Ideas'> </div>
 }
 
-export default Idea
+export default Ideas

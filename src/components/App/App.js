@@ -1,25 +1,13 @@
-import logo from '../../logo.svg';
+import { useState } from 'react';
 import './App.css';
 import Form from '../Form/Form';
-import Idea from '../Ideas/Ideas';
+import Ideas from '../Ideas/Ideas';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Thee new <code>react.js</code> ideaBox App.
-        </p>
-      </header>
-      <Form/>
-        <div className="Cards">
-          <Idea title='1'/>
-          <Idea title='2'/>
-          <Idea title='3'/>
-        </div>
-    </div>
-  );
+    <h1>IdeaBox</h1>
+  )
+
 }
 
 export default App;
