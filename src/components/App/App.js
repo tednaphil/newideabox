@@ -16,6 +16,7 @@ function App() {
       <main className='App'>
         <h1>IdeaBox</h1>
         <p>Heyyy</p>
+        <Ideas name='Bellamy'/>
       </main>
     </>
   );
