@@ -1,10 +1,21 @@
 import './Ideas.css';
-import Card from '../Card/Card.test';
+import Card from '../Card/Card.js';
 
-function Ideas({name}) {
+function Ideas({ ideas }) {
+    // console.log(arguments)
+    const ideaCards = ideas.map(idea => {
+        return (
+            <Card title={idea.title}
+            description={idea.description}
+            // id={idea.id}
+            key={idea.id}
+            />
+        )
+    });
+
     return (
-    <div className='Ideas'>
-        <h2>Hi {name}!</h2>
+    <div className='ideas'>
+        {ideaCards}
     </div>
     )
 }

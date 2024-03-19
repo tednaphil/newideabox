@@ -1,6 +1,7 @@
-h3 {
-    color: #61dafb;
-    padding-right: 8px;
-    padding-left: 8px;
-    outline: solid white 1px;
+.card {
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: 10px;
+    outline: solid rgb(199, 98, 9) 1px;
+    text-align: center;
 }
