@@ -40,6 +40,7 @@ function Form({ addIdea }) {
             />
 
             <button onClick = {event => submitIdeas(event)}>Submit 💾</button>
+            {/* this event is triggering the re-rendering after the state change */}
         </form>
     )
 
