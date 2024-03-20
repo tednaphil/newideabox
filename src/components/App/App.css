@@ -1,8 +1,12 @@
+html {
+  background-color: rgba(252, 251, 247, 0.96);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +39,19 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+h1, h2 {
+  text-align: center;
 }
+
+h2 {
+  color: rgb(199, 98, 9);
+}
+
+/* .ideas {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+} */

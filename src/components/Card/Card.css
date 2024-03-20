@@ -1,0 +1,7 @@
+.card {
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: 10px;
+    outline: solid rgb(199, 98, 9) 1px;
+    text-align: center;
+}
