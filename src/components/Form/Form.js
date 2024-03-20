@@ -22,8 +22,14 @@ function Form({ addIdea }) {
     }
 
     return (
-        <form>
+        <form onSubmit = {event => submitIdeas(event)}>
             <input
+                // make these inputs required - why doesn't adding this attribute work?
+                //is it the prevent default?
+                //commenting out the prevent default shows the requirement,
+                //but an empty card is still created - need a conditional statement in submitIdeas?
+                //using the onSubmit on the form 
+                required
                 type='text'
                 placeholder='Title'
                 name='title'
@@ -32,6 +38,7 @@ function Form({ addIdea }) {
             />
             
             <input
+                required
                 type='text'
                 placeholder='Description'
                 name='description'
@@ -39,7 +46,8 @@ function Form({ addIdea }) {
                 onChange={event => setDescription(event.target.value)}
             />
 
-            <button onClick = {event => submitIdeas(event)}>Submit 💾</button>
+            <button
+            alt='delete icon'>Submit 💾</button>
             {/* this event is triggering the re-rendering after the state change */}
         </form>
     )
