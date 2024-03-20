@@ -21,14 +21,10 @@ function Form({ addIdea }) {
         setDescription('');
     }
 
+    // add labels to form inputs
     return (
         <form onSubmit = {event => submitIdeas(event)}>
             <input
-                // make these inputs required - why doesn't adding this attribute work?
-                //is it the prevent default?
-                //commenting out the prevent default shows the requirement,
-                //but an empty card is still created - need a conditional statement in submitIdeas?
-                //using the onSubmit on the form 
                 required
                 type='text'
                 placeholder='Title'
